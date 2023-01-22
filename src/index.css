@@ -1,0 +1,44 @@
+#root {
+    min-height: 100vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+.highlight {
+    background-color: #E2F1FF !important;
+    border-color: #d1e8fe;
+}
+
+.folder:active {
+    border-color: transparent !important;
+}
+
+.folder:hover {
+    background-color: #f7f7f7;
+}
+
+.folder {
+    border-radius: 0 !important;
+}
+
+.main-container {
+    overflow: auto;
+    width: 520px;
+    max-width: 100%;
+}
+
+.add-btn:hover {
+    background-color: #f7f7f7;
+}
+
+.add-btn:active {
+    border-color: transparent !important;
+}
+
+.directory .directory {
+    border-left: 1px solid rgba(0,0,0,.07);
+}
